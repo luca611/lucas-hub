@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik+Mono+One&family=Shadows+Into+Light+Two&display=swap');
+
+body {
+    background: #292929;
+    text-align: center;
+}
+
+.title {
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    font-family: "Rubik Mono One";
+    font-size: 2.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subtitle {
+    color: #B6B6B6;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    font-family: "Rubik Mono One";
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.divisor {
+    border-radius: 4.375rem;
+    background: #D9D9D9;
+    width: 20%;
+}
+
+.spacing {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 1.25rem;
+}
+
+.section {
+    width: 95%;
+    height: auto;
+    text-align: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.section h2 {
+    color: #B6B6B6;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+    font-family: "Shadows Into Light Two";
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.project-container {
+    gap: 1.25rem;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.project {
+    width: 18.75rem;
+    height: 18.75rem;
+    margin: 1.25rem;
+    background: #D9D9D9;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.preview {
+    background-color: #292929;
+    width: 100%;
+    height: 65%;
+    border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.goto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    height: 35%;
+    border-radius: 0 0 1.25rem 1.25rem;
+}
+
+.goto h1 {
+    color: #000;
+    font-family: "Shadows Into Light Two";
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.goto button {
+    border: none;
+    width: 8.0625rem;
+    height: 2rem;
+    flex-shrink: 0;
+    border-radius: 0.25rem;
+    background: linear-gradient(90deg, #292929 0%, #484848 100%);
+    transition: all 1s ease;
+    color: #FFF;
+    
+    font-size: 0.9rem;
+    font-family: "Shadows Into Light Two";
+}
+
+.goto button:hover {
+    scale: 1.1;
+}
