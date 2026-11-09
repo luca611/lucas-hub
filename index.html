@@ -2,147 +2,121 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luca's Hub: a collection of my games, web projects and jobs.">
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles.css">
-    <title>luca's hub</title>
+    <title>Luca's Hub</title>
 </head>
+
 <body>
-    <div class="spacing">
-        <h1 class="title">Luca's Hub</h1>
-        <h2 class="subtitle">discover my projects</h2>
-        <hr class="divisor">
-    </div>
-    
-    <button class="githubLink" onclick="window.open('https://github.com/luca611')" > </button>
-    <div class="section">
-        <h2>
-            C# projects
-        </h2>
-        <div class="project-container">
-            <div class="project">
-                <img class="preview" src="img1.png">
-                <div class="goto">
-                    <h1>
-                        The hospital survival
-                    </h1>
-                    <button onclick="window.open('https://luiis71.itch.io/the-hospital-survival')" >
-                        view page
-                    </button>
-                </div>
+    <img src="assets/imgs/planetB.svg" alt="" class="planet">
+
+    <header class="header">
+        <a class="brand" href="#top">Luca's Hub</a>
+        <nav class="nav">
+            <a href="#csharp">C#</a>
+            <a href="#hackclub">Hack Club</a>
+            <a href="#sprig">Sprig</a>
+            <a href="#jobs">Jobs</a>
+            <a href="https://github.com/luca611" target="_blank" rel="noopener" aria-label="GitHub">
+                <img src="assets/imgs/github.svg" alt="GitHub">
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome" id="top">
+            <h1>Luca's <b class="highlight">Hub</b></h1>
+            <p class="tagline">discover my projects</p>
+            <img src="assets/imgs/astronaut.svg" alt="Floating astronaut" class="astronaut">
+            <a class="scroll" href="#csharp" aria-label="Scroll to projects">&#8595;</a>
+        </section>
+
+        <section class="block" id="csharp">
+            <h2>C# projects</h2>
+            <div class="grid">
+                <article class="project">
+                    <img class="preview" src="projects/img1.png" alt="The hospital survival" loading="lazy">
+                    <div class="goto">
+                        <h3>The hospital survival</h3>
+                        <a class="btn" href="https://luiis71.itch.io/the-hospital-survival" target="_blank" rel="noopener">view page</a>
+                    </div>
+                </article>
+                <article class="project">
+                    <img class="preview" src="projects/img2.png" alt="Galactic defender" loading="lazy">
+                    <div class="goto">
+                        <h3>Galactic defender</h3>
+                        <a class="btn" href="https://luiis71.itch.io/space-shooter" target="_blank" rel="noopener">view page</a>
+                    </div>
+                </article>
             </div>
+        </section>
 
-            <div class="project">
-                <img class="preview" src="img2.png">
-                <div class="goto">
-                    <h1>
-                        Galactic defender
-                    </h1>
-                    <button onclick="window.open('https://luiis71.itch.io/space-shooter')" >
-                        view page
-                    </button>
-                </div>
+        <section class="block" id="hackclub">
+            <h2>Hack Club style projects</h2>
+            <div class="grid">
+                <article class="project">
+                    <img class="preview" src="projects/img3.png" alt="Memory game" loading="lazy">
+                    <div class="goto">
+                        <h3>Memory game</h3>
+                        <a class="btn" href="https://luca611.github.io/Memory-game/" target="_blank" rel="noopener">view page</a>
+                    </div>
+                </article>
+                <article class="project">
+                    <img class="preview" src="projects/img4.png" alt="Tic tac toe" loading="lazy">
+                    <div class="goto">
+                        <h3>Tic tac toe</h3>
+                        <a class="btn" href="https://luca611.github.io/Tic-Tac-Toe/" target="_blank" rel="noopener">view page</a>
+                    </div>
+                </article>
+                <article class="project">
+                    <img class="preview" src="projects/img5.png" alt="Slot machine" loading="lazy">
+                    <div class="goto">
+                        <h3>Slot machine</h3>
+                        <a class="btn" href="https://luca611.github.io/web-slot-machine/" target="_blank" rel="noopener">view page</a>
+                    </div>
+                </article>
             </div>
-        </div>
-    </div>
+        </section>
 
-    <hr class="big divisor">
-
-    <div class="section">
-        <h2>
-            Hack club style projects:
-        </h2>
-        <div class="project-container">
-            <div class="project">
-                <img class="preview" src="img3.png">
-                <div class="goto">
-                    <h1>
-                        Memory game
-                    </h1>
-                    <button onclick="window.open('https://luca611.github.io/Memory-game/')" >
-                        view page
-                    </button>
-                </div>
+        <section class="block" id="sprig">
+            <h2>Sprig projects</h2>
+            <div class="grid">
+                <article class="project">
+                    <img class="preview" src="projects/img6.png" alt="The lost penguin" loading="lazy">
+                    <div class="goto">
+                        <h3>The lost penguin</h3>
+                        <a class="btn" href="https://sprig.hackclub.com/share/Rlt9tSIdZbuw8B0RFUWa" target="_blank" rel="noopener">view page</a>
+                    </div>
+                </article>
+                <article class="project">
+                    <img class="preview" src="projects/img7.png" alt="8bit driving" loading="lazy">
+                    <div class="goto">
+                        <h3>8bit driving</h3>
+                        <a class="btn" href="https://sprig.hackclub.com/share/BzQrXzx93n3yUi9emZuc" target="_blank" rel="noopener">view page</a>
+                    </div>
+                </article>
             </div>
+        </section>
 
-            <div class="project">
-                <img class="preview" src="img4.png">
-                <div class="goto">
-                    <h1>
-                        Tic tac toe
-                    </h1>
-                    <button onclick="window.open('https://luca611.github.io/Tic-Tac-Toe/')" >
-                        view page
-                    </button>
-                </div>
+        <section class="block" id="jobs">
+            <h2>Jobs</h2>
+            <div class="grid">
+                <article class="project">
+                    <img class="preview" src="projects/img8.png" alt="MCGC website" loading="lazy">
+                    <div class="goto">
+                        <h3>MCGC website</h3>
+                        <a class="btn" href="https://meowstard.cat/" target="_blank" rel="noopener">view page</a>
+                    </div>
+                </article>
             </div>
+        </section>
+    </main>
 
-            <div class="project">
-                <img class="preview" src="img5.png">
-                <div class="goto">
-                    <h1>
-                        slot machine
-                    </h1>
-                    <button onclick="window.open('https://luca611.github.io/web-slot-machine/')" >
-                        view page
-                    </button>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <hr class="big divisor">
-
-    <div class="section">
-        <h2>
-            Sprig projects:
-        </h2>
-        <div class="project-container">
-            <div class="project">
-                <img class="preview" src="img6.png">
-                <div class="goto">
-                    <h1>
-                        the lost penguin
-                    </h1>
-                    <button onclick="window.open('https://sprig.hackclub.com/share/Rlt9tSIdZbuw8B0RFUWa')" >
-                        view page
-                    </button>
-                </div>
-            </div>
-
-            <div class="project">
-                <img class="preview" src="img7.png">
-                <div class="goto">
-                    <h1>
-                        8bit driving
-                    </h1>
-                    <button onclick="window.open('https://sprig.hackclub.com/share/BzQrXzx93n3yUi9emZuc')" >
-                        view page
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <hr class="big divisor">
-
-    <div class="section">
-        <h2>
-            Jobs:
-        </h2>
-        <div class="project-container">
-            <div class="project">
-                <img class="preview" src="img8.png">
-                <div class="goto">
-                    <h1>
-                        MCGC website
-                    </h1>
-                    <button onclick="window.open('https://meowstard.cat/')" >
-                        view page
-                    </button>
-                </div>
-            </div>
-    </div>
+    <footer class="footer">
+        <a class="btn" href="https://luca611.github.io/PersonalSite/">About me &rarr;</a>
+        <p>made with &#9829; by Luca</p>
+    </footer>
 </body>
 </html>
